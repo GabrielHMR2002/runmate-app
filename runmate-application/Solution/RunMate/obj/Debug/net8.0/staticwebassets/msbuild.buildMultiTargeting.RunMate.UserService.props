@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RunMate.UserService.props" />
+</Project>

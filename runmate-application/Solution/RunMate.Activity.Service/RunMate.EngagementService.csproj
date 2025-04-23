@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="RunMate.Microservice.Infrastructure\**" />
+    <Content Remove="RunMate.Microservice.Infrastructure\**" />
+    <EmbeddedResource Remove="RunMate.Microservice.Infrastructure\**" />
+    <None Remove="RunMate.Microservice.Infrastructure\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MassTransit" Version="8.4.0" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.4.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    <PackageReference Include="RabbitMQ.Client" Version="7.1.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RunMate.Shared.Auth\RunMate.Shared.Auth.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="RunMate.EngagementService.Application\Commands\Handlers\" />
+    <Folder Include="RunMate.EngagementService.Application\Commands\Requests\" />
+    <Folder Include="RunMate.EngagementService.Application\Commands\Responses\" />
+    <Folder Include="RunMate.EngagementService.Application\EventHandlers\DomainEventHandlers\" />
+    <Folder Include="RunMate.EngagementService.Application\EventHandlers\IntegrationEventHandlers\" />
+    <Folder Include="RunMate.EngagementService.Application\Queries\Handlers\" />
+    <Folder Include="RunMate.EngagementService.Application\Queries\Requests\" />
+    <Folder Include="RunMate.EngagementService.Application\Queries\Responses\" />
+    <Folder Include="RunMate.EngagementService.Application\Validators\CommandValidators\" />
+    <Folder Include="RunMate.EngagementService.Application\Validators\QueryValidators\" />
+    <Folder Include="RunMate.EngagementService.Domain\Aggregates\" />
+    <Folder Include="RunMate.EngagementService.Domain\ValueObjects\" />
+    <Folder Include="RunMate.EngagementService.Infrastructure\Messaging\EventBus\" />
+    <Folder Include="RunMate.EngagementService.Infrastructure\Messaging\Producers\" />
+    <Folder Include="RunMate.EngagementService.Infrastructure\Messaging\Outbox\" />
+  </ItemGroup>
+
+</Project>

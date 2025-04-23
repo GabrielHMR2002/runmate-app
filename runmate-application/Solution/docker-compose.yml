@@ -1,0 +1,113 @@
+﻿version: "3.8"
+
+services:
+  # PostgreSQL para Authentication
+  postgres-auth:
+    image: postgres:16
+    container_name: postgres-auth
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=2002
+      - POSTGRES_DB=runmate_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-auth-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - runmate-network
+
+  # PostgreSQL para Engagement
+  postgres-engagement:
+    image: postgres:16
+    container_name: postgres-engagement
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=2002
+      - POSTGRES_DB=runmate_EngagementService_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres-engagement-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - runmate-network
+
+  # RabbitMQ
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq-data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - runmate-network
+
+  # Authentication Service
+  authentication-service:
+    build:
+      context: .
+      dockerfile: RunMate/Dockerfile
+    container_name: authentication-service
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__RunMateDatabase=Host=postgres-auth;Database=runmate_db;Username=postgres;Password=2002
+      - RabbitMQ__Host=rabbitmq
+    ports:
+      - "5001:80"
+    depends_on:
+      postgres-auth:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - runmate-network
+
+  # Engagement Service
+  engagement-service:
+    build:
+      context: .
+      dockerfile: RunMate.Activity.Service/Dockerfile
+    container_name: engagement-service
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__RunMateEngagementDatabase=Host=postgres-engagement;Database=runmate_EngagementService_db;Username=postgres;Password=2002
+      - RabbitMQ__Host=rabbitmq
+    ports:
+      - "5202:80"
+    depends_on:
+      postgres-engagement:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - runmate-network
+
+networks:
+  runmate-network:
+    driver: bridge
+
+volumes:
+  postgres-auth-data:
+  postgres-engagement-data:
+  rabbitmq-data:

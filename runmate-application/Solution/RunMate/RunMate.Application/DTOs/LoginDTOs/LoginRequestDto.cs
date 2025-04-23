@@ -1,0 +1,8 @@
+﻿namespace RunMate.Authentication.RunMate.Application.DTOs.LoginDTOs
+{
+    public class LoginRequestDto
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}

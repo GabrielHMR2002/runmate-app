@@ -1,0 +1,14 @@
+﻿namespace RunMate.Shared.Auth.Event.User
+{
+    public class UserUpdatedEvent
+    {
+        public Guid UserId { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string FullName { get; set; }
+        public DateTime? BirthDate { get; set; }
+        public string Role { get; set; }
+        public DateTime UpdatedAt { get; set; }
+        public bool IsActive { get; set; }
+    }
+}

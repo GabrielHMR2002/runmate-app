@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "RunMate\\RunMate.Authentication.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "RunMate.Activity.Service\\RunMate.EngagementService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+@RunMate.Activity.Service_HostAddress = http://localhost:5202
+
+GET {{RunMate.Activity.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
