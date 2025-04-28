@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aqTQvMzc1eTJYyWNmZ1S3NYuIcpE6gtXRhu0dsn3HX6acsqUTdqGDeBxaT3lXVjlvKiFEDzV8SIhKHvf9gLSxg==",
+  "dgSpecHash": "osf51zvfzlGUfS0ZyuTz54RPuzfLm0DdZ4QDib87eJnok7FFniCfjtTqzKEMXM4veo6l4Hxhk+fTznzBS5Ud1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate.Shared.Auth\\RunMate.Shared.Auth.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate.Shared.Auth\\RunMate.Shared.Auth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.4\\microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",

@@ -54,7 +54,6 @@
     <Folder Include="RunMate.Infrastructure\Messaging\Consumers\" />
     <Folder Include="RunMate.Infrastructure\Messaging\Outbox\" />
     <Folder Include="RunMate.Infrastructure\Messaging\Producers\" />
-    <Folder Include="RunMate.Infrastructure\Persistence\Repositories\" />
   </ItemGroup>
 
 </Project>

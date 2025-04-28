@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RunMate.EngagementService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f281cf5663076bdd74befde2920496c4d77a1ad9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e68ac8b006b2e91ce7fec8f9e0bf92049372c11")]
 [assembly: System.Reflection.AssemblyProductAttribute("RunMate.EngagementService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RunMate.EngagementService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

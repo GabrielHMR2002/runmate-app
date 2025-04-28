@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qg6F8Ttz1BKtQjVYEt3ogHLwUUYNjjWUgIsEMDya9qbq3eNdWgLfCfTSj0mjazHVm2RT7uv7m/gMtrsEWLXw7Q==",
+  "dgSpecHash": "p6LtBUZTl2JMZiU5qGCBUdKAnKl6RmQAecMvt8iATwH0L593AGf40WZsOikywwsyMsLu5glt6uZuV1oe7DTsRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate\\RunMate.UserService.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate\\RunMate.UserService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

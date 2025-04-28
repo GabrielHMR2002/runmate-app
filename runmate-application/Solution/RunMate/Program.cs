@@ -17,6 +17,11 @@ using RunMate.Authentication.RunMate.Infrastructure.Persistence.Context;
 // Import para o EventBus com namespaces corretos
 using RunMate.User.RunMate.Infrastructure.Messaging.EventBus;
 using RunMate.User.RunMate.Infrastructure.Messaging.EventBus.Interface;
+using RunMate.UserService.RunMate.Application.Interfaces;
+using RunMate.UserService.RunMate.Application.Services;
+using RunMate.UserService.RunMate.Infrastructure.Persistence.Repositories;
+using RunMate.UserService.RunMate.Infrastructure.Persistence.Interfaces;
+using IEventRepository = RunMate.UserService.RunMate.Application.Interfaces.IEventRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -118,7 +123,11 @@ builder.Services.AddAuthentication(options =>
 
 // Registrar serviços
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IUserService, UserService>(); // Serviço de usuário adicionado
+builder.Services.AddScoped<IUserService, UserService>(); 
+builder.Services.AddScoped<IEventRepository, EventRepository>();
+builder.Services.AddScoped<IEventService, EventService>();
+builder.Services.AddScoped<IPublicationRepository, PublicationRepository>();
+builder.Services.AddScoped<IPublicationService, PublicationService>();
 
 builder.Services.AddControllers();
 

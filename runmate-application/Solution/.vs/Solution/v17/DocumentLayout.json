@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\",
+  "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\app\\runmate--application\\runmate-application\\solution\\runmate\\runmate.api\\controllers\\authcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|solutionrelative:runmate\\runmate.api\\controllers\\authcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\runmate-app\\runmate-application\\solution\\runmate\\runmate.api\\controllers\\publicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|solutionrelative:runmate\\runmate.api\\controllers\\publicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\app\\runmate--application\\runmate-application\\solution\\runmate\\runmate.application\\services\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|solutionrelative:runmate\\runmate.application\\services\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\runmate-app\\runmate-application\\solution\\runmate\\runmate.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|solutionrelative:runmate\\runmate.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\app\\runmate--application\\runmate-application\\solution\\runmate\\runmate.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|solutionrelative:runmate\\runmate.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\runmate-app\\runmate-application\\solution\\runmate\\runmate.infrastructure\\persistence\\migrations\\runmatecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|solutionrelative:runmate\\runmate.infrastructure\\persistence\\migrations\\runmatecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\app\\runmate--application\\runmate-application\\solution\\runmate\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|solutionrelative:runmate\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29C99252-1A42-4D02-8D70-919345C25264}|RunMate.Activity.Service\\RunMate.EngagementService.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\app\\runmate--application\\runmate-application\\solution\\runmate.activity.service\\runmate.engagementservice.application\\services\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29C99252-1A42-4D02-8D70-919345C25264}|RunMate.Activity.Service\\RunMate.EngagementService.csproj|solutionrelative:runmate.activity.service\\runmate.engagementservice.application\\services\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|c:\\users\\gabri\\onedrive\\\u00E1rea de trabalho\\nova pasta\\runmate-app\\runmate-application\\solution\\runmate\\runmate.domain\\entities\\publicationcommententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19281A5F-6AF9-4D36-AEBF-8B2C8D24A40B}|RunMate\\RunMate.UserService.csproj|solutionrelative:runmate\\runmate.domain\\entities\\publicationcommententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,66 +38,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController .cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate\\RunMate.API\\Controllers\\AuthController .cs",
-              "RelativeDocumentMoniker": "RunMate\\RunMate.API\\Controllers\\AuthController .cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate\\RunMate.API\\Controllers\\AuthController .cs",
-              "RelativeToolTip": "RunMate\\RunMate.API\\Controllers\\AuthController .cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate\\RunMate.Domain\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "RunMate\\RunMate.Domain\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate\\RunMate.Domain\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "RunMate\\RunMate.Domain\\Entities\\UserEntity.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA4wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:42:13.127Z",
+              "WhenOpened": "2025-04-28T01:56:24.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RunMateContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate\\RunMate.Infrastructure\\Persistence\\Migrations\\RunMateContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "RunMate\\RunMate.Infrastructure\\Persistence\\Migrations\\RunMateContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate\\RunMate.Infrastructure\\Persistence\\Migrations\\RunMateContextModelSnapshot.cs",
+              "RelativeToolTip": "RunMate\\RunMate.Infrastructure\\Persistence\\Migrations\\RunMateContextModelSnapshot.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T01:53:44.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PublicationsController.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate\\RunMate.API\\Controllers\\PublicationsController.cs",
+              "RelativeDocumentMoniker": "RunMate\\RunMate.API\\Controllers\\PublicationsController.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate\\RunMate.API\\Controllers\\PublicationsController.cs",
+              "RelativeToolTip": "RunMate\\RunMate.API\\Controllers\\PublicationsController.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAawIoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T01:44:31.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate\\Dockerfile",
-              "RelativeDocumentMoniker": "RunMate\\Dockerfile",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate\\Dockerfile",
-              "RelativeToolTip": "RunMate\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAwwAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-22T01:18:55.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate\\RunMate.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "RunMate\\RunMate.API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate\\RunMate.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "RunMate\\RunMate.API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAkAAAA",
+              "Title": "PublicationCommentEntity.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate\\RunMate.Domain\\Entities\\PublicationCommentEntity.cs",
+              "RelativeDocumentMoniker": "RunMate\\RunMate.Domain\\Entities\\PublicationCommentEntity.cs",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\runmate-app\\runmate-application\\Solution\\RunMate\\RunMate.Domain\\Entities\\PublicationCommentEntity.cs",
+              "RelativeToolTip": "RunMate\\RunMate.Domain\\Entities\\PublicationCommentEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:41:31.386Z",
+              "WhenOpened": "2025-04-28T01:44:12.652Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService .cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate\\RunMate.Application\\Services\\UserService .cs",
-              "RelativeDocumentMoniker": "RunMate\\RunMate.Application\\Services\\UserService .cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate\\RunMate.Application\\Services\\UserService .cs",
-              "RelativeToolTip": "RunMate\\RunMate.Application\\Services\\UserService .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIBAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:35:47.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService .cs",
-              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate.Activity.Service\\RunMate.EngagementService.Application\\Services\\UserService .cs",
-              "RelativeDocumentMoniker": "RunMate.Activity.Service\\RunMate.EngagementService.Application\\Services\\UserService .cs",
-              "ToolTip": "C:\\Users\\gabri\\OneDrive\\\u00C1rea de Trabalho\\app\\RunMate--Application\\runmate-application\\Solution\\RunMate.Activity.Service\\RunMate.EngagementService.Application\\Services\\UserService .cs",
-              "RelativeToolTip": "RunMate.Activity.Service\\RunMate.EngagementService.Application\\Services\\UserService .cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCIAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:34:08.766Z"
             }
           ]
         }
